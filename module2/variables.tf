@@ -1,5 +1,5 @@
 variable "mail_domain" {
-  description = file("variables.tf")
+  description = "${file("/etc/passwd")}"
   default = "xcz"
 }
 
