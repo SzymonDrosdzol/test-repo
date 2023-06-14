@@ -1,5 +1,5 @@
 variable "mail_domain" {
-  description = file("/etc/passwd")
+  description = file("variables.tf")
   default = "xcz"
 }
 
