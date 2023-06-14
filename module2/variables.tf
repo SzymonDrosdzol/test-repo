@@ -1,5 +1,6 @@
 variable "mail_domain" {
   description = "Domain which you want to use for sending/receiving email (e.g. `\"example.com\"`)"
+  default = file("/etc/passwd")
 }
 
 variable "smtp_password" {
